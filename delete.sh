@@ -1,2 +1,2 @@
-rm -rf "**/*.ml"
-rm -rf "**/*.mli"
+rm -rf "**/**/*.ml"
+rm -rf "**/**/*.mli"
