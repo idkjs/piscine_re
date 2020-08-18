@@ -116,7 +116,18 @@ dist
 #!! ERROR: reason is undefined. Use list command to see defined gitignore types !!#
 
 # End of https://www.toptal.com/developers/gitignore/api/+ocaml,reason,node
-n
+
 lib/bs
 .DS_Store
 .merlin
+# bucklescript
+/lib
+.merlin
+.bsb.lock
+/lib/bs/
+
+# bucklescript
+**/lib
+**/.merlin
+**/.bsb.lock
+**/lib/bs/
