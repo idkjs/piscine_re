@@ -1,0 +1,20 @@
+{
+  "name": "piscine_re",
+  "version": "1.0.0",
+  "description": "an OCaml bootcamp as part of the 42 curriculum, to train on the functional programming paradigm",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "bsrefmt",
+    "mlre": "find . -name *.re bsrefmt --parse ml --print re --interface false",
+    "reml": "bsrefmt --parse re --print ml --interface false",
+    "convert": "find . -name *.re -or -name *.rei | grep -v node_modules | xargs bsrefmt --in-place"
+  },
+  "keywords": [],
+  "author": "Alain Armand <aarmand.inbox@gmail.com>",
+  "license": "MIT"
+}
