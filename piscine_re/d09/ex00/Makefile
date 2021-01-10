@@ -1,8 +1,8 @@
 
 RESULT = hour
-SOURCES = hourMonoid.ml
+SOURCES = hourMonoid.re
 OCAMLMAKEFILE = OCamlMakefile
 include $(OCAMLMAKEFILE)
 
 
-# ocambuild -clean
+# ocamlbuild -clean

@@ -132,3 +132,4 @@ lib/bs
 **/.bsb.lock
 **/lib/bs/
 **/*.bs.js
+pnpm-lock.yaml
